@@ -1,0 +1,10 @@
+{
+    "lastfm": {
+        "apiKey": "LASTFM_APIKEY",
+        "username": "LASTFM_USERNAME"
+    },
+    "discord": {
+        "clientKey": "DISCORD_CLIENTID",
+        "updateEvery": 10e3
+    }
+}
