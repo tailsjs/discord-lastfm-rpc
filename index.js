@@ -11,7 +11,6 @@ async function update(){
     let track = result.recenttracks.track[0];
     if(track["@attr"] == undefined){
         console.log("Please, start scrobbling!");
-        process.exit(1)
     }
     rpc.updatePresence({
         details: `${track.artist["#text"]} - ${track.name}`,
