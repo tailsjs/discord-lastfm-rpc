@@ -43,9 +43,9 @@ String.prototype.format = function(values) {
     let newString = [];
 
     for(let i of oldString){
-        let protoString = i;
-        if(Object.keys(values).indexOf(protoString.replace(/\{|\}/gi, "")) != -1)
-            protoString = values[i.replace(/\{|\}/gi, "")];
+        let protoString = i.replace(/\{|\}/gi, "");
+        if(Object.keys(values).indexOf(protoString) != -1)
+            protoString = values[protoString];
         
         newString.push(protoString)
     };
