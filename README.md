@@ -1,6 +1,8 @@
 # discord-lastfm-rpc
 Gets the track being listened to in LastFM and shows it in Discord via Rich Presence
 
+[Русская версия](https://github.com/tailsjs/discord-lastfm-rpc/blob/main/README-ru.md)
+
 ## Installation.
 1. Download/Clone repository
 2. Type "npm i"
@@ -8,7 +10,7 @@ Gets the track being listened to in LastFM and shows it in Discord via Rich Pres
 4. `node index.js`
 
 ## How to configurate config.json?
-You need [LastFM API Key](https://www.last.fm/api/account/create) and [Discord Application](https://discord.com/developers/applications)
+You need [LastFM API Key](https://www.last.fm/api/account/create) and [Discord Application and clientID](https://discord.com/developers/applications)
 
 ### What do i need to do here?
 ```json
