@@ -1,10 +1,17 @@
 {
     "lastfm": {
-        "apiKey": "LASTFM_APIKEY",
+        "apiKey": "LASTFM_API_KEY",
         "username": "LASTFM_USERNAME"
     },
     "discord": {
-        "clientKey": "DISCORD_CLIENTID",
+        "applicationID": "DISCORD_APPLICATIONID",
         "updateEvery": 10e3
-    }
+    },
+    "text": {
+        "details": "{artist} - {track}",
+        "state": "{album}",
+        "imageText": "{artist} - {track} ({album})",
+        "buttons": [ "Listen with me!", "Here my profile!" ]
+    },
+    "buttonsEnabled": true
 }
